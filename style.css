@@ -1,0 +1,52 @@
+body {
+    font-family: "Arial";
+    margin: 0;
+    border: 0;
+}
+
+header {
+    background-color: #232931;
+    padding: 5px;
+}
+
+nav {
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+nav a:hover {
+    color: #4ECCA3;
+}
+
+.logo_caixa {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+.logo {
+    width: 3%;
+    margin: 0px;
+}
+
+.botao__entrar:hover {
+    color: class="botao__entrar";
+}
+
+body {
+    background-color: #393E46;
+}
