@@ -71,9 +71,7 @@ nav a:hover{
 }
 
 .logo{
-
     width: 50%;
-
 }
 
 .banner {
@@ -86,16 +84,58 @@ nav a:hover{
     width: 100px;
     float: left;
     margin: 0 20px 0;
+    padding-left: 10%;
 }
 
 .titulo-pizza {
     text-align: center;
     clear: left;
     font-size: 3em;
+    margin: 0;
+    padding: 50px 0 30px 0;
 }
 
 .sobre-pizzaria {
     background-color: #FFFFFE;
     width: 100%;
-    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.titulo-padrao {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 30px 0 20px 0;
+}
+
+/*Estilização da sessão Nosso estabelecimento*/
+
+.mapa {
+    text-align: center;
+    background: linear-gradient(#FFFFFF, #FFBB00);
+}
+
+/*Estilização da sessão Benefícios*/
+
+.beneficios {
+    background-color: #FFBB00;
+}
+
+.lista-beneficios {
+    list-style: "😋";
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.lista-beneficios li{
+    line-height: 1.5;
+}
+
+.lista-beneficios li::before {
+    content: "🍕";
+}
+
+.img_beneficios {
+    width: 50%;
 }
