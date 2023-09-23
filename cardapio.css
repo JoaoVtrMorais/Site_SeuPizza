@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial';
+}
+
+.titulo__cardapio {
+    color: red;
+    text-transform: uppercase;
+}
+
+p {
+    text-align: center;
+    margin: 2em;
+}
+
+.opcoes {
+    flex-direction: row;
+    margin: 5em;
+}
+
+.opcoes__mussarela {
+    border: .3em solid #FFBB00;
+    border-radius: 1.5em;
+}
+
+.opcoes__mussarela__imagem {
+    width: 5%;
+}
+
+.opcoes__mussarela__valor {
+    font-weight: bold;
+}
+
+.opcoes__frango {
+    border: .3em solid #FFBB00;
+    border-radius: 1.5em;
+}
+
+.opcoes__frango__imagem {
+    width: 5%;
+}
+
+.opcoes__frango__valor {
+    font-weight: bold;
+}
+
+.opcoes__portuguesa {
+    border: .3em solid #FFBB00;
+    border-radius: 1.5em;
+}
+
+.opcoes__portuguesa__imagem {
+    width: 5%;
+}
+
+.opcoes__portuguesa__valor {
+    font-weight: bold;
+}
