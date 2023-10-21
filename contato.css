@@ -1,0 +1,9 @@
+body {
+    font-family: 'Arial';
+}
+
+.contato__titulo {
+    color: red;
+    text-transform: uppercase;
+    margin-left: 1em;
+}
