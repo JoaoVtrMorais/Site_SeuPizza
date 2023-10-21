@@ -5,6 +5,7 @@ body {
 .titulo__cardapio {
     color: red;
     text-transform: uppercase;
+    margin-left: 1em;
 }
 
 p {
