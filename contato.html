@@ -1,15 +1,19 @@
 <html>
 
 <head>
-    <link href="style.css" rel="stylesheet">
-    <link href="./Assets/logo.ico" rel="shortcut icon">
+    <link href="Assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="Assets/img/logo.ico" rel="shortcut icon">
     <title>Pizzaria Seu Pizza</title>
+    <script>
+        alert("Utilize esse formulário para se comunicar conosco!");
+    </script>
 </head>
 
 <body>
     <header>
         <div class="logo_caixa">
-            <img src="./Assets/logo.png" title="Logo" class="logo">
+            <img src="Assets/img/logo.png" title="Logo" class="logo">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -29,7 +33,8 @@
 
         <p class="contato__texto">
             Nosso horário de funcionamento: Terça à Domingo das 18h às 23h |
-            (11) 4444-8888
+            <a class="whatsapp-link" href="https://wa.me/5599111112222" target="_blank">
+                <i class="fa fa-whatsapp"></i> (11) 4444-8888</a>
         </p>
 
         <form name="frmContato" method="get" action="mailto:teste@gmail.com" target="_blank">
@@ -41,7 +46,7 @@
                 <input type="text" id="nomecompleto" name="" class="input-padrao" required>
 
                 <label for="email">* E-mail</label>
-                <input type="email" id="email" name="" class="input-padrao" required>
+                <input type="email" id="email" name="" class="input-padrao" required placeholder="seuemail@dominio.com">
 
                 <label for="telefone">* Telefone</label>
                 <input type="tel" id="telefone" name="" class="input-padrao" placeholder="(XX) XXXXX-XXXX">
@@ -82,7 +87,7 @@
     </main>
 
     <footer>
-        <img src="Assets/logo.png" alt="Seu Pizza" class="logo_footer">
+        <img src="Assets/img/logo.png" alt="Seu Pizza" class="logo_footer">
         <p class="copyright">&copy; Todos os direitos reservados para a Seu Pizza</p>
     </footer>
 </body>

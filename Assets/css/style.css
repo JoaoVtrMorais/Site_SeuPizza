@@ -170,7 +170,7 @@ nav a:hover{
 footer {
     text-align: center;
     margin: 0 auto;
-    background: url("Assets/textura.jpg");
+    background: url("../img/textura.jpg");
     padding: 40px 0 30px 0;
 }
 
