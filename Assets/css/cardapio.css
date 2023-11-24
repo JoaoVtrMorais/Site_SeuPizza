@@ -35,13 +35,13 @@ ul {
     flex-direction: column;
     height: 430px;
     width: 400;
-    padding: 1em;
     transition: all 0.3s;
     cursor: pointer;
 }
 
 .opcoes__lista li:hover {
     -webkit-transform: scale(1);
+    padding: 1em;
     transform: scale(1.05);
     box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.7);
 }
@@ -63,4 +63,21 @@ img {
 
 .opcoes__valor {
     font-weight: bold;
+}
+
+div {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 5em;
+}
+
+.botao__novidade {
+    text-decoration: none;
+    background-color: red;
+    width: 14em;
+    border-radius: 5px 0 0 5px;
+    align-items: center;
+    padding: 1em;
+    font-size: 20px;
+    color: white;
 }
