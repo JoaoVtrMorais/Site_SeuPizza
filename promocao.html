@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Assets/css/promocao.css">
+        <title>OFERTA RELAMPAGO!</title>    
+        <script>
+            function pisca() {
+                var f = document.getElementById('promocao__preco');
+                setInterval(function() {
+                    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');    
+                }, 150);
+            }    
+        </script>
+    </head>
+
+    <body onload='pisca();'>
+        <div class= "promocao">
+            <img src="Assets/img/mussarela.png" class="promocao__img" alt="">
+            <p class="promocao__txt">
+                QUINTA-FEIRA MALUCA!!!<br>
+                Pizza de Mussarela por apenas:
+            </p>
+            <p class="promocao__preco" id="promocao__preco">R$39,90</p>
+        </div>
+    </body>
+</html>

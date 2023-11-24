@@ -5,9 +5,27 @@
     <link rel="stylesheet" href="cardapio.css">
     <link href="Assets/img/logo.ico" rel="shortcut icon">
     <title>Pizzaria Seu Pizza</title>
+    <script>
+        var win = null;
+        function PopPromocao() {
+            pagina="promocao.html";
+            var left = (window.innerWidth - 400) / 2;
+            var top = (window.innerHeight - 400) / 2;
+            settings = 'toolbar = no, location = no, directories = no, status = no, menubar = no, width = 400, height = 400, left = ' + left + ', top =' + top + ', scrollbars = no, resizable = no, copyhistory = yes';
+            win = window.open(pagina, "OFERTA RELAMPAGO", settings);
+        }
+
+        function Novidade(){
+            pagina="novidade.html"
+            var left = (window.innerWidth - 820) / 2;
+            var top = (window.innerHeight - 680) / 2;
+            settings = 'toolbar = no, location = no, directories = no, status = no, menubar = no, width = 820, height = 680, left = ' + left + ', top =' + top + ', scrollbars = no, resizable = no, copyhistory = yes';
+            win = window.open(pagina, "NOVIDADE", settings);    
+        }
+    </script>
 </head>
 
-<body>
+<body onLoad = "JavaScript:PopPromocao();">
     <header>
         <div class="logo_caixa">
             <img src="Assets/img/logo.png" title="Logo" class="logo">
@@ -47,6 +65,10 @@
                 </li>
             </ul>
         </section>
+
+        <div>
+            <a href="JavaScript:Novidade();" class="botao__novidade">Conheça o nosso novo sabor...</a>
+        </div>
 
     </main>
     <footer>
