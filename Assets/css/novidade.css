@@ -4,7 +4,7 @@
 }
 
 .container {
-    background-image: url("/Assets/img/NovoSabor.jpg");
+    background-image: url("../Assets/img/NovoSabor.jpg");
     background-size: cover;
     width: 769px;
     height: 400px;
