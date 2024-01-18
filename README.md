@@ -1,6 +1,6 @@
 # Pizzaria Seu Pizza
 
-<img align="center" width="100%)" src="Assets/ImagemDoSite.png"></a>
+<img align="center" width="100%)" src="Assets/img/ImagemDoSite.png"></a>
 
 Repositório criado para fins educacionais e para expôr o projeto feito durante as aulas da matéria de **Desenvolvimento Web** do [**Técnologo de Análise e Desenvolvimento de Sistemas (ADS)**](https://faculdades.sp.senai.br/curso/102901/tecnologo-em-analise-e-desenvolvimento-de-sistemas) da [**Faculdade SENAI SP**](https://faculdades.sp.senai.br).
 
